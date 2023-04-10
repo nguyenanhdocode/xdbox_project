@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Logging.Log4Net.AspNetCore" Version="5.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\XDBOX.COMMON\XDBOX.COMMON.csproj" />
+    <ProjectReference Include="..\XDBOX.DATA\XDBOX.DATA.csproj" />
+  </ItemGroup>
+
+</Project>
